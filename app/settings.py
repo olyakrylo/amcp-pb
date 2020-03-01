@@ -54,8 +54,8 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend', # бекенд классической аутентификации, чтобы работала авторизация через обычный логин и пароль
 )
 
-SOCIAL_AUTH_VK_OAUTH2_KEY = '7254737'
-SOCIAL_AUTH_VK_OAUTH2_SECRET = 'jZiDRja5JAp5Q30GzcLI'
+SOCIAL_AUTH_VK_OAUTH2_KEY = '7341791'
+SOCIAL_AUTH_VK_OAUTH2_SECRET = 'hdFYpKWWKhsg3Blhk1Rn'
 
 LOGIN_REDIRECT_URL = '/'
 SOCIAL_AUTH_VK_OAUTH2_SCOPE = ['uid']
