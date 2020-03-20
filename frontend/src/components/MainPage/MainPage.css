@@ -31,7 +31,7 @@
 
 .mainBlock {
   display: flex;
-  margin-top: 14vh;
+  margin-top: 100px;
   margin-left: 10%;
   margin-bottom: 3vh;
   width: 80%;
@@ -60,6 +60,10 @@
 @media (max-width: 500px) {
   .mainBlock {
     flex-direction: column;
+    margin-top: 85px;
+
+    width: 90%;
+    margin-left: 5%;
   }
 
   .content {

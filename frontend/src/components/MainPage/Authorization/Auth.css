@@ -12,13 +12,14 @@
     display: flex;
     height: auto;
     width: 30%;
-    min-width: 40vh;
+    /* min-width: 40vh; */
     background-color: lightpink;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 3vh 3vh;
     box-shadow: 0px 0px 8px 0px black;
+    position: relative;
 }
 
 .auth-text {
@@ -49,8 +50,8 @@
     justify-content: space-around;
     width: 90%;
     margin: 3% 0 5% 0;
-    height: 7vh;
-    max-height: 8vw;
+    height: 50px;
+    /* max-height: 8vw; */
 }
 
 .auth-button {
@@ -92,22 +93,58 @@
     font-size: 14px;
 }
 
-.close-circle {
+.vk-reg {
+    mask-image: url('../../../media/sprite.svg#vk');
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    background-color: #2c3343;
+    height: 50px;
+    /* max-height: 8vw; */
+    width: 50px;
+}
+
+/* .close-circle {
     display: flex;
-    height: 4vh;
-    width: 4vh;
+    height: 30px;
+    width: 30px;
     border-radius: 4vh 4vh;
     background-color: lightpink;
     mask-image: url('../../../media/sprite.svg#cross');
     mask-size: 60% 60%;
     mask-repeat: no-repeat;
     mask-position: center;
-    margin-left: 2vh;
-    transform: translateY(-19vh);
-}
+
+} */
 
 .close-circle:hover {
     color: white;
     background-color: lightcoral;
     cursor: pointer;
+}
+
+@media (max-width: 900px) { 
+    .auth-window {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .auth-window {
+        width: 70%;
+    }
+
+    .auth-bottom-buttons {
+        width: 90%;
+        height: 40px;
+    }
+
+    .auth-button {
+        font-size: 12px;
+    }
+
+    .vk-reg {
+        background-color: #2c3343;
+        height: 40px;
+        width: 40px;
+    }
 }

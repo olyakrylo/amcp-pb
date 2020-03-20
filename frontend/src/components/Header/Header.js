@@ -77,13 +77,11 @@ export default class Header extends React.Component {
         const actualPage = store.getState().page
         return(
             <header className='header' style={{opacity: this.setHeaderOpacity(actualPage)}}>
-                <div style={{marginLeft: '5%'}}>
-                    <button className='title-button'
-                            onClick={() => this.openMain()}
-                    >
-                        <h1>ПБ ПМ-ПУ</h1>
-                    </button>
-                </div>
+                <button className='title-button'
+                        onClick={() => this.openMain()}
+                >
+                    ПБ ПМ-ПУ
+                </button>
                 <div className="personal-info">
                     <div className="personal-info-about">
                         <div className="personal-info-about-name">

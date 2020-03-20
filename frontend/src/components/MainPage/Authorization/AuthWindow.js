@@ -51,12 +51,12 @@ export default class AuthWindow extends React.Component {
         return (
             <div className='auth-background'>
                 <div className='auth-window'>
-                    <p className='auth-text'>Авторизация</p>
-                    <div className='auth-field'>
+                    <p className='auth-text reg-text'>Авторизация</p>
+                    <div className='reg-field'>
                         <p>Логин (st + 6 цифр)</p>
                         <input id='login' type='text'></input>
                     </div>
-                    <div className='auth-field'>
+                    <div className='reg-field'>
                         <p>Пароль</p>
                         <input id='password' type='password'></input>
                     </div>
@@ -69,8 +69,7 @@ export default class AuthWindow extends React.Component {
                             <p>Регистрация</p>
                         </div>
                     </div>
-                </div>
-                <div className='close-circle' onClick={() => this.changePage('main')}>
+                    <div className='reg-close-circle' onClick={() => this.changePage('main')}></div>
                 </div>
             </div>
         )
