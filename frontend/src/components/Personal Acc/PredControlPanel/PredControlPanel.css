@@ -1,6 +1,6 @@
 .pred-control-panel{
     background-color: white;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
     border-radius: 15px;
     width: 40%;
@@ -13,7 +13,7 @@
 
 .pred-control-title {
     text-align: center;
-    font-size: 1.7vw;
+    font-size: 22px;
     margin-top: 10px;
     margin-bottom: 0px;
     color: #2c3343;
@@ -32,14 +32,13 @@
     width: auto;
     padding: 0 5%;
     background-color: #2c3343;
-    height: 6vh;
-    max-height: 5vw;
+    height: 40px;
     border-radius: 5vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3vw;
+    font-size: 17px;
     transition-duration: 300ms;
 }
 
@@ -51,4 +50,20 @@
     transform: scale(1.05);
     transition-duration: 300ms;
     cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .pred-control-panel {
+        width: 90%;
+        min-height: 120px;
+    }
+
+    .pred-control-title {
+        font-size: 17px;
+    }
+
+    .pred-add-button {
+        height: 30px;
+        font-size: 12px;
+    }
 }

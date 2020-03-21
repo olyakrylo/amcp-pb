@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-around;
     padding: 2vh 0;
-    padding-top: 9vh;
+    padding-top: 100px;
 }
 
 .task-status-section{
@@ -23,6 +23,21 @@
     justify-content: space-around;
     align-items: flex-start;
     background-color: white;
+}
+
+@media (max-width: 500px) {
+  .comissions-and-actions {
+    padding-top: 80px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .task-status-section {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
 /* color section background #f6cebd */
 /* color item background #fae7de */

@@ -16,7 +16,7 @@
 
 .title-button {
     margin-left: 5%;
-    height: 50%;
+    /* height: 50%; */
     font-family: inherit;
     font-size: 35px;
     color: #2c3343;
@@ -24,6 +24,9 @@
     background-color: transparent;
     border: none;
     outline: none;
+
+    /* background-color: blue; */
+    /* display: inline; */
 }
   
 .title-button:hover {
@@ -34,9 +37,6 @@
 .personal-info{
     margin-right: 5%;
     display: flex;
-    align-items: space-between;
-    justify-content: flex-end;
-    /* min-width: 60vw; */
     height: 90%;
 }
   
@@ -45,11 +45,15 @@
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+
+    /* background-color: aqua; */
 }
 
 .personal-info-about-name {
-    text-align: right;
+    text-align: center;
 }
   
 .course{
@@ -73,7 +77,9 @@
     align-items: center;
     overflow: hidden;
     color: #2c3343;
-    min-width: 20vh;
+    /* min-width: 20vh; */
+    min-width: max-content;
+
     /* max-width: 40vw; */
 }
 
@@ -128,11 +134,13 @@
     }
 
     .title-button {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .personal-info-about {
         font-size: 12px;
+        margin-right: 5px;
+        align-items: center;
     }
 
     .personal-info-picture {

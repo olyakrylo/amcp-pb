@@ -9,7 +9,7 @@ export default class CurrentComissionEvents extends React.Component{
     render(){
     return(
         <div className="events-block-container">
-            <h1 className="new-task-title">{this.props.titleName}</h1>
+            <h1 className="new-task-title-1">{this.props.titleName}</h1>
             <div className="events-container"></div>
         </div>
     )

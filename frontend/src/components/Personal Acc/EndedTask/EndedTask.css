@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 95%;
-    border-radius: 6.15vh;
+    width: 100%;
+    border-radius: 50px;
     background-color: #fae7de;
-    font-size: 2vw;
-    height: 7vh;
-    max-height: 6vw;
+    font-size: 20px;
+    height: 50px;
+    min-height: max-content;
     transition-duration: 300ms;
 }
 
@@ -28,11 +28,6 @@
     margin-right: 10%;
 }
 
-.ended-task-name {
-    margin-left: 10%;
-    font-size: 1.3vw;
-}
-
 .ended-task-accepted .ended-task-state{
     background-position: 15% 95%;
 }
@@ -44,3 +39,11 @@
 .ended-task-checking .ended-task-state{
     background-position: 30% 95%;
 }
+
+@media (max-width: 500px) {
+    .ended-task-item {
+        height: 30px;
+        font-size: 13px;
+    }
+}
+

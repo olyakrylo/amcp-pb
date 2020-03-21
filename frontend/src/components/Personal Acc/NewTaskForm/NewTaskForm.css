@@ -1,6 +1,6 @@
 .new-task-form{
-    width: 40vw;
-    min-width: 40vh;
+    width: 30%;
+    /* min-width: 270px; */
     height: auto;
     background-color: white;
     border-radius: 15px;
@@ -13,6 +13,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    position: relative;
 }
 
 .new-task-form-back{
@@ -135,11 +137,12 @@
 }
 
 .exit-button-form{
-    width: 4vh;
-    height: 4vh;
+    width: 30px;
+    height: 30px;
     border: 1px solid #2c3343;
     position: absolute;
-    transform: translateX(17vw) translateY(-22vh);
+    right: 10px;
+    top: 10px;
     border-radius: 50%;
     mask-image: url('../../../media/sprite.svg#cross');
     mask-size: 50% 50%;
@@ -151,4 +154,10 @@
 .exit-button-form:hover {
     background-color: lightcoral;
     cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .new-task-form {
+        width: 90%;
+    }
 }
