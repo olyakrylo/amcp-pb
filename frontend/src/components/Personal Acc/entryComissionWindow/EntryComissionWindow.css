@@ -15,6 +15,8 @@
     align-items: center;
     padding: 1vh;
     position: relative;
+    font-family: 'PFBeauSansPro';
+    font-weight: normal;
 }
 .question-entry-form{
     margin-top: 10px;
@@ -40,12 +42,13 @@
     border: none;
     margin-bottom: 2%;
     margin-top: 4%;
-    height: 5vh;
-    width: 40%;
-    border-radius: 2.5vh;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 40px;
     color: white;
-    font-family: 'PFBeauSansPro-light';
-    font-size: 2vh;
+    font-family: inherit;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 
 .entry-button-form:hover {

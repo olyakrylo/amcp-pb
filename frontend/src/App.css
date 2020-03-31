@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'PFBeauSansPro';
+    src: url('./media/fonts/PFBeauSansPro-Light.woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PFBeauSansPro';
+    src: url('./media/fonts/PFBeauSansPro-LightItalic.woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PFBeauSansPro';
+    src: url('./media/fonts/PFBeauSansPro-SemiBold.woff');
+    font-weight: bold;
+}

@@ -1,9 +1,15 @@
 .current-task-item-prev{
     display: flex; 
     justify-content: flex-end;
-    height: 45px;
-    min-height: max-content;  
+    height: 20px !important;
+    min-height: min-content !important;  
     width: 100%;
+}
+
+@media (max-width: 500px) {
+    .current-task-item-prev {
+        height: 10px !important;
+    }
 }
 
 .current-task-item{
@@ -12,10 +18,12 @@
     width: 100%;
     min-height: max-content;
     align-items: center;
+    /* font-family: "PFBeauSansPro";
+    font-weight: normal; */
 }
 .current-task-left{
     background-color: #fae7de;
-    width: 7vh;
+    /* width: 100px; */
     border-top-left-radius: 6.15vh;
     border-bottom-left-radius: 6.15vh;
     margin-right: 0;
@@ -25,12 +33,13 @@
 .current-task-eye{
     mask-image: url("../../../media/sprite.svg#eye");
     background-color: #2c3343;
-    width: 6.15vh;
-    height: 6.15vh;
+    width: 30px;
+    height: 30px;
     border: 1px solid black;
     mask-repeat: no-repeat;
     mask-size: 75% 75%;
     mask-position: center;
+    margin-left: 5px;
 }
 
 .current-task-left.current-task-description-show{
@@ -55,11 +64,12 @@
 .current-task-name{
     padding-left: 15px;
     width: 78.5%;
-    height: inherit;
+    /* height: inherit; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 1.5vw;
+    font-size: 18px !important;
+    padding: 10px 0;
 }
 .current-task-buttons{
     display: flex;
@@ -67,6 +77,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    padding: 10px 0;
 }
 
 .current-task-buttons div{
@@ -115,5 +126,9 @@
     .current-task-add {
         width: 17px;
         height: 17px;
+    }
+
+    .current-task-name {
+        font-size: 13px !important;
     }
 }

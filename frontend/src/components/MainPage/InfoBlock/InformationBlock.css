@@ -10,6 +10,12 @@
     transition-duration: 300ms;
 }
 
+.info-block-title {
+    font-family: inherit !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
+}
+
 .information-block:hover {
     transform: scale(1.01);
     transition-duration: 300ms;

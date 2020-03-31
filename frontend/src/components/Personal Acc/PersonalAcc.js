@@ -312,7 +312,7 @@ export default class PersonalAccount extends React.Component{
                 <EntryWindow actionOnEntry={this.actionWithComission} closeClick={this.onClickCloseEntry} comName={this.state.selectComission}/>
     </CssTransition>
 
-    <section className="comissions-and-actions">
+    <section className="comissions-and-actions animated fadeIn">
         <ComissionsTable onClickCom={this.comTableListener} comInfo={this.state.comInfo} entryFunction={this.onClickEntry}/>
         
         <FadeAnimationComponent 
@@ -322,7 +322,7 @@ export default class PersonalAccount extends React.Component{
         />      
     </section>
     
-    <section className="task-status-section">
+    <section className="task-status-section animated fadeIn">
     <FadeAnimationComponent 
         redrawCallback={this.redrawCallback} 
         isRedrawNeeded={this.state.isRedrawNeeded} 

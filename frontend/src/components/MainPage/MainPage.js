@@ -71,7 +71,7 @@ export default class MainPage extends React.Component {
         let page = store.getState().page
         if (page === 'main') {
             return(
-                <div className='mainBlock animated bounceInDown'>
+                <div className='mainBlock animated slideInUp'>
                     <NavigationBlock />
                     <div className='content'>
                         <InformationBlock />

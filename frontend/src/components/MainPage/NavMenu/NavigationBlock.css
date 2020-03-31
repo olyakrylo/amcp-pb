@@ -42,6 +42,12 @@
     justify-content: center;
     align-content: center;
 }
+
+@media (max-width: 900px) {
+    .text {
+        font-size: 14px;
+    }
+}
   
 .listElement:hover {
     cursor: pointer;
@@ -73,12 +79,6 @@
 
 .listElement:hover > .text {
     color: lightcoral;
-}
-
-@media (max-width: 900px) {
-    .text {
-        font-size: 14px;
-    }
 }
 
 @media (max-width: 500px) {

@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'PFBeauSansPro-light';
   font-style: normal;
   src: url('../../media/fonts/PFBeauSansPro-Light.ttf') format('truetype');
@@ -8,7 +8,7 @@
   font-family: 'PFBeauSansPro-light';
   font-style: italic;
   src: url('../../media/fonts/PFBeauSansPro-LightItal.ttf') format('truetype');
-}
+} */
 
 .comissions-and-actions{
     background-color: #f6cebd;
@@ -16,6 +16,7 @@
     justify-content: space-around;
     padding: 2vh 0;
     padding-top: 100px;
+    font-family: "PFBeauSansPro";
 }
 
 .task-status-section{
@@ -23,6 +24,7 @@
     justify-content: space-around;
     align-items: flex-start;
     background-color: white;
+    font-family: "PFBeauSansPro";
 }
 
 @media (max-width: 500px) {

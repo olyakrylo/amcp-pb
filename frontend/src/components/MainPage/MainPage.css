@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'PFBeauSansPro-light';
   font-style: normal;
   src: url('../../media/fonts/PFBeauSansPro-Light.ttf') format('truetype');
@@ -14,10 +14,11 @@
   font-family: 'PFBeauSansPro-light';
   font-style: bold;
   src: url('../../media/fonts/PFBeauSansPro-SeBold.ttf') format('truetype');
-}
+} */
 
 .background {
-    font-family: 'PFBeauSansPro-light';
+    font-family: 'PFBeauSansPro';
+    font-style: normal;
     width: 100%;
     min-height: 100vh;
     background-image: url(../../media/PM-cropped-blured.jpg);

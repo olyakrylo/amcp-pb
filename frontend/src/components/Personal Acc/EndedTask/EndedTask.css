@@ -5,10 +5,18 @@
     width: 100%;
     border-radius: 50px;
     background-color: #fae7de;
-    font-size: 20px;
-    height: 50px;
+    font-size: 18px;
+    height: 30px;
     min-height: max-content;
     transition-duration: 300ms;
+    padding: 10px 0;
+}
+
+@media (max-width: 500px) {
+    .ended-task-item {
+        height: 10px;
+        font-size: 13px;
+    }
 }
 
 .ended-task-item .ended-task-state:hover{
@@ -38,12 +46,5 @@
 
 .ended-task-checking .ended-task-state{
     background-position: 30% 95%;
-}
-
-@media (max-width: 500px) {
-    .ended-task-item {
-        height: 30px;
-        font-size: 13px;
-    }
 }
 

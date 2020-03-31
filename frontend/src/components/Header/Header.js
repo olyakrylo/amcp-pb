@@ -76,7 +76,7 @@ export default class Header extends React.Component {
         const isAuthorized = store.getState().isAuthorized
         const actualPage = store.getState().page
         return(
-            <header className='header' style={{opacity: this.setHeaderOpacity(actualPage)}}>
+            <header className='header animated slideInDown' style={{opacity: this.setHeaderOpacity(actualPage)}}>
                 <div className='title-button'
                         onClick={() => this.openMain()}
                 >
